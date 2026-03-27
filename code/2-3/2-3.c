@@ -7,7 +7,7 @@ int main() {
     char c[128];
 
     int len = strlen(a);
-    printf("length of a : %d\n", len);
+    printf("length of a: %d\n", len);
 
     strcpy(c, a);
     printf("a: %s, c: %s\n", a, c);
