@@ -5,7 +5,7 @@ int main() {
 
     int *p = &n;
 
-    printf("address of n : %p\n", p);
+    printf("address of n: %p\n", p);
 
     printf("*p = %d\n" , *p);
 
