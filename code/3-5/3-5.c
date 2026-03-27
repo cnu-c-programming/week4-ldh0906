@@ -2,9 +2,9 @@
 
 void my_print(char type, void* x) {
     if (type == 'C') {
-        printf("%c\n", x);
+        printf("%c\n", *(char*)x);
     } else if (type == 'D') {
-        printf("%d\n", x);
+        printf("%d\n", *(int*)x);
     } else if (type == 'S') {
         printf("%s\n", x);
     }
